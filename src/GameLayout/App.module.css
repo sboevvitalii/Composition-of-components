@@ -1,0 +1,33 @@
+.game {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: rgb(208, 204, 211);
+}
+
+.buttonContainer {
+	height: 80px;
+}
+
+.resetButton {
+	margin-top: 20px;
+	padding: 6px 12px;
+	background-color: rgb(208, 204, 211);
+	border: none;
+	border-radius: 3px;
+	color: rgb(255, 0, 0);
+	font-size: 20px;
+	transition: 0.1s;
+}
+
+.resetButton:hover {
+	color: black;
+	background-color: #ffffff;
+	cursor: pointer;
+}
+
+.resetButton:active {
+	font-size: 19px;
+}
